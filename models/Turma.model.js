@@ -6,7 +6,6 @@ const turmaSchema = new Schema(
     anoEscolar: {
       type: String,
       required: [true, "ano escolar obrigatorio"],
-      unique: true,
     },
     periodo: String,
     letraTurma: String,

@@ -1,5 +1,6 @@
 require("dotenv").config();
 
+<<<<<<< HEAD
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
 const express = require("express");
@@ -19,6 +20,11 @@ mongoose
   .catch((err) => {
     console.error("Error connecting to mongo", err);
   });
+=======
+mongoose
+// require database configuration
+require('./config/db.config');
+>>>>>>> 2a2722fe72fd2c6c1945539d6118b09591ae61e9
 
 const app_name = require("./package.json").name;
 const debug = require("debug")(
