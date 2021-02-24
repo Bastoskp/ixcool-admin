@@ -10,7 +10,7 @@ const logger = require("morgan");
 const path = require("path");
 
 // Set up the database
-require('./config/db.config');
+require("./config/db.config");
 
 const app_name = require("./package.json").name;
 const debug = require("debug")(
@@ -39,14 +39,11 @@ app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "hbs");
 app.use(express.static(path.join(__dirname, "public")));
 app.use(favicon(path.join(__dirname, "public", "images", "favicon.ico")));
-app.get("/", (req, res, next) => res.render("index"));
-app.get("/login", (req, res, next) => res.render("login"));
-app.get("/signup", (req, res, next) => res.render("signup"));
 
 // default value for title local
 app.locals.title = "Express - Generated with IronGenerator";
 
-const index = require("./routes/index");
-app.use("/", index);
+app.use("/", require("./routes/index"));
+app.use("/", require("./routes/private.routes"));
 
 module.exports = app;
