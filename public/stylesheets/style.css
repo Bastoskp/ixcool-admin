@@ -868,34 +868,3 @@ a.previous {
     width: 22rem;
   }
 }
-
-.nav {
-  margin-top: 15px;
-  margin-left: 15px;
-}
-
-.btn {
-  margin-top: 350px;
-  margin-left: 15px;
-  width: 120px;
-}
-
-a.linktres:link {
-  color: #000000;
-  background-color: #e2dede;
-  text-decoration: none;
-}
-a.linktres:visited {
-  color: #000000;
-  text-decoration: line-through;
-}
-a.linktres:hover {
-  color: #000000;
-  background-color: orange;
-  text-decoration: none;
-}
-a.linktres:active {
-  color: #ffff00;
-  text-decoration: none;
-  background-color: #000000;
-}
