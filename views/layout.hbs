@@ -6,11 +6,43 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{{title}}</title>
   <link rel="stylesheet" href="stylesheets/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  {{!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet"> --}}
 </head>
 <body>
 
+
+  <nav class="nav flex-column">
+
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <a class="nav-link active linktres" href="#">Turma</a>
+      </li>
+      <br>
+      <li class="nav-item">
+        <a class="nav-link linktres" href="#">Aluno</a>
+      </li>
+      <br>
+      <li class="nav-item">
+        <a class="nav-link linktres" href="#">Professor</a>
+      </li>
+
+      {{!-- <li class="nav-item">
+        <a class="nav-link disabled" href="#">LOGOUT</a>
+      </li> --}}
+
+      <button type="button" class="btn btn-secondary btn-sm">LOGOUT</button>
+      
+  </ul>
+
+</nav>
+
+
+
+<main>
   {{{body}}}
+</main>
+  
 
   <script src="/javascripts/script.js"></script>
 </body>

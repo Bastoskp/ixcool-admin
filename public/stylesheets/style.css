@@ -1,23 +1,42 @@
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
 
 a {
-  color: orange; }
+  color: orange;
+}
 
 .background {
   background: #282537;
-  background-image: -webkit-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
-  background-image: -moz-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
-  background-image: -o-radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
+  background-image: -webkit-radial-gradient(
+    top,
+    circle cover,
+    #3c3b52 0%,
+    #252233 80%
+  );
+  background-image: -moz-radial-gradient(
+    top,
+    circle cover,
+    #3c3b52 0%,
+    #252233 80%
+  );
+  background-image: -o-radial-gradient(
+    top,
+    circle cover,
+    #3c3b52 0%,
+    #252233 80%
+  );
   background-image: radial-gradient(top, circle cover, #3c3b52 0%, #252233 80%);
   height: 105vh;
   width: 100vw;
   position: absolute;
   margin-top: -9px;
-  margin-left: -8px; }
+  margin-left: -8px;
+}
 
 body {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .title {
   color: orange;
@@ -25,12 +44,14 @@ body {
   margin-left: 33%;
   margin-top: 10rem;
   position: absolute;
-  font-family: "Syncopate", sans-serif; }
+  font-family: "Syncopate", sans-serif;
+}
 
 .title:hover {
   -webkit-transform: scale(1.5);
   -ms-transform: scale(3);
-  transform: scale(1.5); }
+  transform: scale(1.5);
+}
 
 .login {
   color: orange;
@@ -39,24 +60,29 @@ body {
   margin-left: 42%;
   position: absolute;
   font-family: "Syncopate", sans-serif;
-  border-bottom: 1px solid white; }
+  border-bottom: 1px solid white;
+}
 
 input {
   height: 20px;
-  width: 12rem; }
+  width: 12rem;
+}
 
 label {
   font-size: 18px;
-  color: orange; }
+  color: orange;
+}
 
 .login-info {
   display: flex;
   flex-direction: column;
   margin-left: 42%;
-  margin-top: 28%; }
+  margin-top: 28%;
+}
 
 .login-info label {
-  padding-bottom: 2px; }
+  padding-bottom: 2px;
+}
 
 .login-btn {
   border-radius: 20px;
@@ -67,7 +93,8 @@ label {
   font-family: "Syncopate", sans-serif;
   font-size: 10px;
   background-color: #3c3b52;
-  border-color: orange; }
+  border-color: orange;
+}
 
 .sign-up {
   color: orange;
@@ -75,12 +102,14 @@ label {
   position: absolute;
   margin-top: 1rem;
   margin-left: 48%;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .sign-up:hover {
   -webkit-transform: scale(1.3);
   -ms-transform: scale(1.3);
-  transform: scale(1.3); }
+  transform: scale(1.3);
+}
 
 .sign-out {
   color: orange;
@@ -89,12 +118,14 @@ label {
   margin-top: 1rem;
   font-size: 15px;
   margin-left: 91%;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .sign-out:hover {
   -webkit-transform: scale(1.3);
   -ms-transform: scale(1.3);
-  transform: scale(1.3); }
+  transform: scale(1.3);
+}
 
 .welcome {
   position: absolute;
@@ -102,7 +133,8 @@ label {
   margin-top: 20%;
   margin-left: 39%;
   color: orange;
-  font-family: "Syncopate", sans-serif; }
+  font-family: "Syncopate", sans-serif;
+}
 
 .description {
   color: orange;
@@ -115,37 +147,44 @@ label {
   align-content: center;
   line-height: 20px;
   text-align: center;
-  text-shadow: 0.8px 0.8px black; }
+  text-shadow: 0.8px 0.8px black;
+}
 
 #username {
   font-family: "Syncopate", sans-serif;
-  font-size: 11px; }
+  font-size: 11px;
+}
 
 #password {
   font-family: "Syncopate", sans-serif;
-  font-size: 11px; }
+  font-size: 11px;
+}
 
 #name {
   font-family: "Syncopate", sans-serif;
-  font-size: 11px; }
+  font-size: 11px;
+}
 
 nav {
   display: flex;
   flex-direction: row;
   height: 3rem;
-  position: absolute; }
+  position: absolute;
+}
 
 .my-nav-title {
   color: orange;
   font-family: "Syncopate", sans-serif;
   margin-top: 0.8rem;
   margin-left: 1rem;
-  font-size: 28px; }
+  font-size: 28px;
+}
 
 .my-nav-title:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
-  transform: scale(1.1); }
+  transform: scale(1.1);
+}
 
 .quote {
   color: orange;
@@ -157,15 +196,18 @@ nav {
   text-align: center;
   margin-top: 7.5rem;
   margin-left: 43rem;
-  line-height: 3rem; }
+  line-height: 3rem;
+}
 
 .quote:hover {
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
-  transform: scale(1.05); }
+  transform: scale(1.05);
+}
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .links {
   list-style: none;
@@ -175,48 +217,57 @@ a {
   margin-right: 1rem;
   margin-left: 4rem;
   margin-top: 0.8rem;
-  font-family: "Rajdhani", sans-serif; }
+  font-family: "Rajdhani", sans-serif;
+}
 
 .links:hover {
   -webkit-transform: scale(1.3);
   -ms-transform: scale(1.3);
-  transform: scale(1.3); }
+  transform: scale(1.3);
+}
 
 .profile-img {
   position: absolute;
-  align-items: center; }
+  align-items: center;
+}
 
 .profile-img img {
   max-height: 10rem;
   max-width: 14rem;
   border-radius: 60px;
-  margin-top: 1rem; }
+  margin-top: 1rem;
+}
 
 .profile-img:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
-  transform: scale(1.1); }
+  transform: scale(1.1);
+}
 
 .user-name {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+}
 
 .profile-username {
   margin-top: 10rem;
   position: absolute;
   font-size: 24px;
-  font-family: "Rajdhani", sans-serif; }
+  font-family: "Rajdhani", sans-serif;
+}
 
 .profile-name {
   font-size: 11px;
   margin-top: 14rem;
   position: absolute;
-  font-family: "Rajdhani", sans-serif; }
+  font-family: "Rajdhani", sans-serif;
+}
 
 .profile-routine {
   position: absolute;
-  width: 30rem; }
+  width: 30rem;
+}
 
 .profile-routine h1 {
   display: flex;
@@ -226,10 +277,12 @@ a {
   font-size: 28px;
   margin-left: 2rem;
   color: black;
-  border-bottom: 2px solid black; }
+  border-bottom: 2px solid black;
+}
 
 .number {
-  position: absolute; }
+  position: absolute;
+}
 
 .routine-white-background {
   background-color: white;
@@ -242,7 +295,8 @@ a {
   border-radius: 10px;
   overflow: scroll;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+}
 
 .white-background {
   display: flex;
@@ -254,7 +308,8 @@ a {
   background-color: rgba(255, 255, 255, 0.4);
   margin-top: 7rem;
   margin-left: 4rem;
-  border-radius: 10px; }
+  border-radius: 10px;
+}
 
 .quick-lines {
   color: black;
@@ -264,32 +319,38 @@ a {
   font-size: 33px;
   font-weight: bolder;
   text-align: center;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+}
 
 .fitness-img {
   position: absolute;
   height: 5px;
-  width: 10px; }
+  width: 10px;
+}
 
 .error {
   color: orange;
   margin-top: 3rem;
   margin-left: 35rem;
   font-size: 18px;
-  font-family: "Rajdhani", sans-serif; }
+  font-family: "Rajdhani", sans-serif;
+}
 
 .routine {
   margin-top: 4rem;
   margin-left: 5rem;
   margin-right: 1rem;
   margin-bottom: -2rem;
-  width: 16rem; }
+  width: 16rem;
+}
 
 .fa {
-  margin-left: 7px; }
+  margin-left: 7px;
+}
 
 .details {
-  width: 15rem; }
+  width: 15rem;
+}
 
 #workout,
 #weight,
@@ -298,7 +359,8 @@ a {
 #details {
   color: black;
   font-size: 21px;
-  font-family: "Timmana", sans-serif; }
+  font-family: "Timmana", sans-serif;
+}
 
 #workout-text,
 #weight-text,
@@ -306,23 +368,28 @@ a {
 #sets-text,
 #details-text {
   font-family: "Rajdhani", sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 #workout-text a {
-  color: silver; }
+  color: silver;
+}
 
 #workout-text a:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
-  transform: scale(1.2); }
+  transform: scale(1.2);
+}
 
 .each-routine {
   display: flex;
   flex-wrap: wrap;
-  width: 50rem; }
+  width: 50rem;
+}
 
 span #details-text {
-  width: 20rem; }
+  width: 20rem;
+}
 
 .routine-btn {
   height: 2.5rem;
@@ -334,15 +401,18 @@ span #details-text {
   border-radius: 20%;
   position: absolute;
   margin-top: 42rem;
-  margin-left: 81rem; }
+  margin-left: 81rem;
+}
 
 .routine-btn a {
-  color: orange; }
+  color: orange;
+}
 
 .routine-btn:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
-  transform: scale(1.1); }
+  transform: scale(1.1);
+}
 
 .finished-btn {
   height: 2.5rem;
@@ -354,48 +424,57 @@ span #details-text {
   border-radius: 20%;
   position: absolute;
   margin-top: 46rem;
-  margin-left: 81rem; }
+  margin-left: 81rem;
+}
 
 .finished-btn a {
-  color: orange; }
+  color: orange;
+}
 
 .finished-btn:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
-  transform: scale(1.1); }
+  transform: scale(1.1);
+}
 
 .category {
   margin-top: 3rem;
-  margin-left: 25rem; }
+  margin-left: 25rem;
+}
 
 .category ul {
   display: flex;
   flex-direction: row;
-  position: absolute; }
+  position: absolute;
+}
 
 .category li {
   list-style: none;
   color: white;
   font-family: "Rajdhani", sans-serif;
   margin-right: 2rem;
-  font-size: 18px; }
+  font-size: 18px;
+}
 
 .category a {
-  color: white; }
+  color: white;
+}
 
 a.next {
   width: 2rem;
   color: orange;
   position: absolute;
   margin-left: 65rem;
-  margin-top: 4rem; }
+  margin-top: 4rem;
+}
 
 a.previous {
   width: 2rem;
   color: orange;
   position: absolute;
   margin-left: 22rem;
-  margin-top: 4rem; }
+  margin-top: 4rem;
+}
 
 .word-next {
   color: orange;
@@ -403,7 +482,8 @@ a.previous {
   margin-top: 5.2rem;
   position: absolute;
   font-family: "Rajdhani", sans-serif;
-  font-size: 13px; }
+  font-size: 13px;
+}
 
 .word-previous {
   color: orange;
@@ -411,7 +491,8 @@ a.previous {
   margin-left: 21rem;
   position: absolute;
   font-family: "Rajdhani", sans-serif;
-  font-size: 13px; }
+  font-size: 13px;
+}
 
 .exercises {
   display: flex;
@@ -420,34 +501,40 @@ a.previous {
   margin-left: 8rem;
   margin-right: 3rem;
   overflow: scroll;
-  height: 700px; }
+  height: 700px;
+}
 
 .exercises img {
   height: 10rem;
   width: 12rem;
   border-radius: 20px;
   margin-bottom: 1rem;
-  border-color: orange; }
+  border-color: orange;
+}
 
 .exercises img:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
-  transform: scale(1.1); }
+  transform: scale(1.1);
+}
 
 .each-exercise {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-right: 3rem;
-  margin-bottom: 3rem; }
+  margin-bottom: 3rem;
+}
 
 .each-exercise a {
-  color: orange; }
+  color: orange;
+}
 
 .each-name {
   font-size: 17px;
   color: orange;
-  font-family: "Rajdhani", sans-serif; }
+  font-family: "Rajdhani", sans-serif;
+}
 
 .show-details {
   display: flex;
@@ -455,38 +542,45 @@ a.previous {
   margin-left: 10rem;
   margin-top: 10rem;
   width: 70rem;
-  align-items: center; }
+  align-items: center;
+}
 
 .show-name {
   color: orange;
   font-family: "Syncopate", sans-serif;
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 .show-img1 {
   height: 8rem;
   width: 10rem;
-  margin-left: -30rem; }
+  margin-left: -30rem;
+}
 
 .show-img1 img {
   border-radius: 15%;
-  border: 1px solid orange; }
+  border: 1px solid orange;
+}
 
 .show-img2 {
   height: 8rem;
   width: 10rem;
   margin-left: 10rem;
-  margin-top: -8rem; }
+  margin-top: -8rem;
+}
 
 .show-img2 img {
   border-radius: 15%;
-  border: 1px solid orange; }
+  border: 1px solid orange;
+}
 
 .show-description {
   color: orange;
   margin-top: 10rem;
   font-family: "Rajdhani", sans-serif;
   font-size: 18px;
-  width: 40rem; }
+  width: 40rem;
+}
 
 .back {
   color: white;
@@ -497,12 +591,14 @@ a.previous {
   margin-left: 42rem;
   font-size: 22px;
   border: 1px solid orange;
-  border-radius: 10px; }
+  border-radius: 10px;
+}
 
 .back:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
-  transform: scale(1.2); }
+  transform: scale(1.2);
+}
 
 .routine-form {
   display: flex;
@@ -510,37 +606,44 @@ a.previous {
   width: 50rem;
   margin-left: 15rem;
   margin-top: 6rem;
-  text-align: center; }
+  text-align: center;
+}
 
 .giphy-embed {
   position: absolute;
   margin-left: 58rem;
-  margin-top: 16rem; }
+  margin-top: 16rem;
+}
 
 .giphy-embed-1 {
   position: absolute;
   margin-top: 16rem;
-  margin-left: 5rem; }
+  margin-left: 5rem;
+}
 
 .routine-form h2 {
   color: orange;
   font-size: 35px;
-  font-family: "Rajdhani", sans-serif; }
+  font-family: "Rajdhani", sans-serif;
+}
 
 .routine-form input {
   margin-left: 19rem;
   border-color: orange;
   font-size: 16px;
-  color: black; }
+  color: black;
+}
 
 .routine-form label {
   padding-bottom: 10px;
-  font-family: "Rajdhani", sans-serif; }
+  font-family: "Rajdhani", sans-serif;
+}
 
 .routine-form textarea {
   margin-left: 10rem;
   width: 30rem;
-  border-color: orange; }
+  border-color: orange;
+}
 
 .add-btn {
   height: 2.5rem;
@@ -550,166 +653,249 @@ a.previous {
   background-color: #3c3b52;
   border-color: orange;
   color: orange;
-  font-family: "Syncopate", sans-serif; }
+  font-family: "Syncopate", sans-serif;
+}
 
 #text {
   color: black;
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
   .title {
     font-size: 45px;
-    margin-left: 4.5rem; }
+    margin-left: 4.5rem;
+  }
   .sign-up {
     margin-left: 10rem;
     font-size: 16px;
-    margin-top: 3rem; }
+    margin-top: 3rem;
+  }
   .login-info {
     margin-top: 20rem;
-    margin-left: 6rem; }
+    margin-left: 6rem;
+  }
   .login {
     font-size: 16px;
     margin-top: 18rem;
-    margin-left: 6rem; }
+    margin-left: 6rem;
+  }
   .login-btn {
-    margin-left: 8rem; }
+    margin-left: 8rem;
+  }
   .welcome {
     font-size: 14px;
     margin-top: 15rem;
-    margin-left: 6rem; }
+    margin-left: 6rem;
+  }
   .description {
     margin-top: 13rem;
     margin-left: 3.5rem;
     font-size: 13px;
     width: 18rem;
-    text-shadow: none; }
+    text-shadow: none;
+  }
   .sign-out {
-    visibility: hidden; }
+    visibility: hidden;
+  }
   .my-nav-title {
-    visibility: hidden; }
+    visibility: hidden;
+  }
   nav {
-    margin-left: -11rem; }
+    margin-left: -11rem;
+  }
   iframe {
-    visibility: hidden; }
+    visibility: hidden;
+  }
   .routine-form {
-    margin-left: -10rem; }
+    margin-left: -10rem;
+  }
   .routine-form h2 {
-    font-size: 26px; }
+    font-size: 26px;
+  }
   #text {
     height: 8rem;
     width: 20rem;
-    padding-left: 10rem; }
+    padding-left: 10rem;
+  }
   a.previous {
-    margin-left: 5rem; }
+    margin-left: 5rem;
+  }
   .word-previous {
-    visibility: hidden; }
+    visibility: hidden;
+  }
   a.next {
-    margin-left: -19rem; } }
+    margin-left: -19rem;
+  }
+}
 
 @media (min-width: 481px) and (max-width: 767px) {
   .title {
     font-size: 65px;
-    margin-left: 11rem; }
+    margin-left: 11rem;
+  }
   .sign-up {
     margin-left: 19.5rem;
     font-size: 18px;
-    margin-top: 3rem; }
+    margin-top: 3rem;
+  }
   .login-info {
     margin-top: 22rem;
-    margin-left: 16rem; }
+    margin-left: 16rem;
+  }
   .login {
     font-size: 16px;
     margin-top: 20rem;
-    margin-left: 16rem; }
+    margin-left: 16rem;
+  }
   .login-btn {
-    margin-left: 18rem; }
+    margin-left: 18rem;
+  }
   .welcome {
     font-size: 14px;
     margin-top: 15rem;
-    margin-left: 16rem; }
+    margin-left: 16rem;
+  }
   .description {
     margin-top: 14rem;
     margin-left: 13rem;
     font-size: 14px;
     width: 18rem;
-    text-shadow: none; }
+    text-shadow: none;
+  }
   .sign-out {
-    visibility: hidden; }
+    visibility: hidden;
+  }
   iframe {
-    visibility: hidden; }
+    visibility: hidden;
+  }
   .routine-form {
-    margin-left: -5rem; }
+    margin-left: -5rem;
+  }
   .routine-form h2 {
-    font-size: 26px; }
+    font-size: 26px;
+  }
   #text {
     height: 8rem;
     width: 20rem;
-    padding-left: 10rem; } }
+    padding-left: 10rem;
+  }
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .title {
     font-size: 72px;
-    margin-left: 18rem; }
+    margin-left: 18rem;
+  }
   .sign-up {
     margin-left: 27rem;
     font-size: 18px;
-    margin-top: 3rem; }
+    margin-top: 3rem;
+  }
   .login-info {
     margin-top: 22rem;
-    margin-left: 23rem; }
+    margin-left: 23rem;
+  }
   .login {
     font-size: 16px;
     margin-top: 20rem;
-    margin-left: 23rem; }
+    margin-left: 23rem;
+  }
   .login-btn {
-    margin-left: 25rem; }
+    margin-left: 25rem;
+  }
   .welcome {
     font-size: 14px;
     margin-top: 15rem;
-    margin-left: 24rem; }
+    margin-left: 24rem;
+  }
   .description {
     margin-top: 14rem;
     margin-left: 21.5rem;
     font-size: 15px;
     width: 20rem;
-    text-shadow: none; }
+    text-shadow: none;
+  }
   .sign-out {
-    visibility: hidden; }
+    visibility: hidden;
+  }
   iframe {
-    visibility: hidden; }
+    visibility: hidden;
+  }
   .routine-form {
-    margin-left: 5rem; }
+    margin-left: 5rem;
+  }
   .routine-form h2 {
-    font-size: 40px; }
+    font-size: 40px;
+  }
   #text {
     height: 8rem;
     width: 20rem;
-    padding-left: 10rem; } }
+    padding-left: 10rem;
+  }
+}
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   .title {
     font-size: 78px;
-    margin-left: 25rem; }
+    margin-left: 25rem;
+  }
   .sign-up {
     margin-left: 90%;
-    font-size: 16px; }
+    font-size: 16px;
+  }
   .login-info {
     margin-top: 22rem;
-    margin-left: 30rem; }
+    margin-left: 30rem;
+  }
   .login {
     font-size: 16px;
     margin-top: 20rem;
-    margin-left: 30rem; }
+    margin-left: 30rem;
+  }
   .login-btn {
-    margin-left: 32rem; }
+    margin-left: 32rem;
+  }
   .welcome {
     font-size: 14px;
     margin-top: 16rem;
-    margin-left: 31rem; }
+    margin-left: 31rem;
+  }
   .description {
     margin-top: 15rem;
     margin-left: 27.5rem;
     font-size: 17px;
-    width: 22rem; } }
+    width: 22rem;
+  }
+}
 
-/*# sourceMappingURL=style.css.map */
+.nav {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.btn {
+  margin-top: 350px;
+  margin-left: 15px;
+  width: 120px;
+}
+
+a.linktres:link {
+  color: #000000;
+  background-color: #e2dede;
+  text-decoration: none;
+}
+a.linktres:visited {
+  color: #000000;
+  text-decoration: line-through;
+}
+a.linktres:hover {
+  color: #000000;
+  background-color: orange;
+  text-decoration: none;
+}
+a.linktres:active {
+  color: #ffff00;
+  text-decoration: none;
+  background-color: #000000;
+}
